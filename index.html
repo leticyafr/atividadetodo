@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+    <title>Lista De Tarefas</title>
+</head>
+<body>
+    <div class="main">
+        <h1 class="arima-title"> ♡ lista de tarefas ♡ </h1>
+        <form name="formPrincipal">
+            <label for="tarefas"></label>
+            <input type="text" name="tarefas" id="tarefas" />
+            <button type="button" onclick="adicionarTarefa()">adicionar</button>
+        </form>
+        <fieldset>
+            <legend class="arima-legend">Tarefas</legend>
+            <ul>
+                <li>corrigir as provas= EMIDES2BM</li>
+                <li>lançar notas = EMIDES2BM</li>
+            </ul>
+        </fieldset>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

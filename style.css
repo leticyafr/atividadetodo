@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(173, 216, 230);
+    color: rgb(0, 0, 139); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    background: rgb(255, 182, 193); 
+    padding: 45px;
+    border-radius: 9px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 25%;
+}
+
+.arima-title {
+    font-family: "Arima", system-ui;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(0, 0, 139); 
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid rgb(100, 149, 237); 
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: rgb(100, 149, 237); 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 139); 
+}
+
+fieldset {
+    border: 1px solid rgb(100, 149, 237); 
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.arima-legend {
+    font-family: "Arima", system-ui;
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 5px 0;
+}
